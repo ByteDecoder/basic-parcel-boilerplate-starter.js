@@ -4,7 +4,16 @@ Basic Front-End boilerplate setup with Parcel
 This package is going to accelerate your experiments by adding dependencies to your **package.json** with some js libraries and creating a basic folder structure to start
 working with **Parcel**. Also helps you with *SASS* and **PostCSS**
 
-Run
+## Setup
+Adding the library as dev dependency after creating your project directory
+```bash
+$ mkdir <your-project-directory>
+$ cd  <your-project-directory>
+$ yarn init -y
+$ yarn add --dev basic-boilerplate-parcel.js
+```
+
+## Running
 
 ```bash
 $ node node_modules/basic-boilerplate-parcel.js/basicBoilerplateSetup.js 
