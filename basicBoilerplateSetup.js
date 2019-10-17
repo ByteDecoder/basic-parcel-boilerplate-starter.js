@@ -31,16 +31,16 @@ const basicBoilerPlateSetup = {
     }
 
     // root cfg files
-    copyFile('./templates/.postcssrc', '.postcssrc');
-    copyFile('./templates/.browserslistrc', '.browserslistrc');
-    copyFile('./templates/.gitignore', '.gitignore.new');
+    copyFile(`${__dirname}/templates/.postcssrc`, '.postcssrc');
+    copyFile(`${__dirname}/templates/.browserslistrc`, '.browserslistrc');
+    copyFile(`${__dirname}/templates/.gitignore`, '.gitignore.new');
 
     // source code files
-    copyFile('./templates/index.html', `${BASE_DIR}/index.html`);
-    copyFile('./templates/main.js', `${BASE_DIR}/js/main.js`);
-    copyFile('./templates/typoUtil.js', `${BASE_DIR}/js/typoUtil.js`);
-    copyFile('./templates/main.scss', `${BASE_DIR}/css/main.scss`);    
-    copyFile('./templates/_reset.scss', `${BASE_DIR}/css/helpers/_reset.scss`);
+    copyFile(`${__dirname}/templates/index.html`, `${BASE_DIR}/index.html`);
+    copyFile(`${__dirname}/templates/main.js`, `${BASE_DIR}/js/main.js`);
+    copyFile(`${__dirname}/templates/typoUtil.js`, `${BASE_DIR}/js/typoUtil.js`);
+    copyFile(`${__dirname}/templates/main.scss`, `${BASE_DIR}/css/main.scss`);    
+    copyFile(`${__dirname}/templates/_reset.scss`, `${BASE_DIR}/css/helpers/_reset.scss`);
     
     // Empty files
     createEmptyFile(`${BASE_DIR}/css/helpers/_functions.scss`);
