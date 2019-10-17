@@ -84,3 +84,9 @@ $ yarn dev
   - sass
   - stylelint
     
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/ByteDecoder/basic-boilerplate-parcel.js.
+
+
+Copyright (c) 2019 [Rodrigo Reyes](https://twitter.com/bytedecoder) released under the MIT license
