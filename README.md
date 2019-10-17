@@ -10,7 +10,7 @@ Creates for you the next folder structure:
 ├── .gitignore.new
 ├── package.json.bak
 ├── package.json.new
-├── src
+└── src
     ├── css
     │   ├── components
     │   │   ├── _button.scss
