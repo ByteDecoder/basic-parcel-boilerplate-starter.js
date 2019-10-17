@@ -1,8 +1,49 @@
 # basic-boilerplate-parcel.js
-Basic Front-End boilerplate setup with Parcel
+
+This library helps you to create a setup for modern web development uisng **Parcel**.
+Creates for you the next folder structure:
+
+```
+.
+├── .browserslistrc
+├── .postcssrc
+├── .gitignore.new
+├── package.json.bak
+├── package.json.new
+├── src
+    ├── css
+    │   ├── components
+    │   │   ├── _button.scss
+    │   │   ├── _carousel.scss
+    │   │   ├── _cover.scss
+    │   │   └── _pagination.scss
+    │   ├── helpers
+    │   │   ├── _functions.scss
+    │   │   ├── _mixins.scss
+    │   │   ├── _reset.scss
+    │   │   └── _variables.scss
+    │   ├── layout
+    │   │   ├── _footer.scss
+    │   │   ├── _grid.scss
+    │   │   └── _header.scss
+    │   ├── main.scss
+    │   └── pages
+    │       ├── _contact.scss
+    │       └── _home.scss
+    ├── img
+    ├── index.html
+    └── js
+        ├── main.js
+        └── typoUtil.js
+
+
+```
 
 This package is going to accelerate your experiments by adding dependencies to your **package.json** with some js libraries and creating a basic folder structure to start
-working with **Parcel**. Also helps you with *SASS* and **PostCSS**
+working with **Parcel**. Also helps you with *SASS* and **PostCSS**.
+
+
+Just start coding at your **index.html** file with all the dependencies ready for *js* and *css*
 
 ## Setup
 Adding the library as dev dependency after creating your project directory
