@@ -33,6 +33,7 @@ const basicBoilerPlateSetup = {
     // root cfg files
     copyFile('./templates/.postcssrc', '.postcssrc');
     copyFile('./templates/.browserslistrc', '.browserslistrc');
+    copyFile('./templates/.gitignore', '.gitignore.new');
 
     // source code files
     copyFile('./templates/index.html', `${BASE_DIR}/index.html`);

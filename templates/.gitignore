@@ -60,9 +60,6 @@ typings/
 # next.js build output
 .next
 
-src/
-/.postcssrc
-/.browserslistrc
-/package.json.new
-/package.json.bak
-/.gitignore.new
+# Parcel
+.cache/
+dist/

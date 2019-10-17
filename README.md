@@ -7,7 +7,7 @@ working with **Parcel**. Also helps you with *SASS* and **PostCSS**
 Run
 
 ```bash
-$ node node basicBoilerplateSetup.js 
+$ node node_modules/basic-boilerplate-parcel.js/basicBoilerplateSetup.js 
 ```
 
 Then you can use the **package.json.new** with all the dependencies replacing your original package file. Then execute:
