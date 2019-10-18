@@ -74,6 +74,7 @@ $ yarn dev
 - normalize.css
 - typography
 - typography-theme-moraga
+- moment.js
 
 ## JS Development Libraries included
 
