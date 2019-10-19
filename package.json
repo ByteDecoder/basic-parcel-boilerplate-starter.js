@@ -1,6 +1,6 @@
 {
   "name": "basic-boilerplate-parcel.js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "repository": "git@github.com:ByteDecoder/basic-boilerplate-parcel.js.git",
   "author": "Rodrigo Reyes <encode@bytedecoder.me>",
