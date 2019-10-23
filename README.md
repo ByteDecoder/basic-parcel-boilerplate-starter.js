@@ -60,7 +60,7 @@ $ yarn add --dev basic-boilerplate-parcel.js
 $ node node_modules/basic-boilerplate-parcel.js/basicBoilerplateSetup.js 
 ```
 
-Then you can use the **package.json.new** with all the dependencies replacing your original package file. Then execute:
+Then you can use the **package.json.new** with all the dependencies replacing your original package file. The same with **.gitignore.new** that already has parcel and nodejs ignore settings. Then execute:
 
 ```bash
 $ yarn install
