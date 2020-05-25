@@ -3,7 +3,7 @@
 This library helps you to create a setup for modern web development uisng **Parcel**.
 Creates for you the next folder structure:
 
-```
+```bash
 .
 ├── .browserslistrc
 ├── .postcssrc
