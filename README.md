@@ -1,5 +1,8 @@
 # basic-boilerplate-parcel.js
 
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
 This library helps you to create a setup for modern web development uisng **Parcel**.
 Creates for you the next folder structure:
 
